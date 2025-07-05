@@ -9,7 +9,8 @@ dependencies = [
     "mkdocs-material>=9.0.0",
     "pymdown-extensions>=10.0.0",
     "mkdocs-mermaid-to-image>=0.1.0",
-    "mkdocs-to-pdf>=0.1.0"
+    "mkdocs-to-pdf>=0.1.0",
+    "weasyprint>=60.0"
 ]
 
 [tool.uv]
