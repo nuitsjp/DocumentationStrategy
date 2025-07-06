@@ -1,56 +1,32 @@
 site_name: ドキュメンテーション戦略
 site_description: 業務システムドキュメントのベストプラクティスとMermaid図表のサンプル集
 site_author: Documentation Team
+copyright: Copyright &copy; 2024 @nuits.jp
 
 theme:
   name: material
   language: ja
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.highlight
-    - search.share
-    - content.code.copy
-  palette:
-    - scheme: default
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/brightness-7
-        name: ダークモードに切り替え
-    - scheme: slate
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/brightness-4
-        name: ライトモードに切り替え
 
-nav:
-  - ホーム: index.md
-  - システム設計:
-    - システム概要: system-overview.md
-    - アーキテクチャ: architecture.md
-    - データベース設計: database-design.md
-    - クラス設計: class-design.md
-  - プロセス・フロー:
-    - ユーザージャーニー: user-journey.md
-    - 状態管理: state-management.md
-  - プロジェクト管理:
-    - プロジェクト計画: project-plan.md
+extra_css:
+  - stylesheets/pdf-fixes.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.highlight
+  - toc:
+      permalink: true
 
 plugins:
-  - search:
-      lang: ja
-  - mermaid2:
-      arguments:
-        theme: default
-        themeVariables:
-          primaryColor: '#ff0000'
+  - search
   - mermaid-to-image:
-      # 環境変数ENABLE_PDF_EXPORTが設定されている場合のみプラグインを有効化
-      # enabled_if_env: ENABLE_PDF_EXPORT
       # PDF生成時の互換性のためHTMLラベルを無効化
       mermaid_config:
         htmlLabels: false
@@ -59,44 +35,7 @@ plugins:
         class:
           htmlLabels: false
   - to-pdf:
-      # enabled_if_env: ENABLE_PDF_EXPORT
-      cover_subtitle: 'ドキュメンテーション戦略'
+      cover_subtitle: 'MkDocs Mermaid to Image'
       toc_title: 目次
       toc_level: 3
-      output_path: pdf/ドキュメンテーション戦略.pdf
-
-markdown_extensions:
-  - admonition
-  - codehilite
-  - meta
-  - toc:
-      permalink: true
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-
-extra_css:
-  - assets/css/custom.css
-
-extra_javascript:
-  - https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js
-
-copyright: Copyright &copy; 2024 Documentation Team
+      output_path: MkDocs-Mermaid-to-Image.pdf

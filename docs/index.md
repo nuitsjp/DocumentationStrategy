@@ -37,6 +37,14 @@ graph TD
     F --> G
 ```
 
+## 複雑な図表
+
+Mermaidはレイアウト位置などが自動判定されることで、逆に詳細な図は読みやすく書くのが難しい場合があります。
+
+その場合はVS Codeの「Draw.io Integration」拡張を利用して、SVGで記述します。
+
+![SVG](detailed-diagram.drawio.svg)
+
 ## 技術スタック
 
 - **MkDocs**: 静的サイトジェネレーター
