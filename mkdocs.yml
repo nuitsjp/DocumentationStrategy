@@ -35,7 +35,7 @@ plugins:
         class:
           htmlLabels: false
   - to-pdf:
-      cover_subtitle: 'MkDocs Mermaid to Image'
+      cover_subtitle: 'ドキュメンテーション戦略'
       toc_title: 目次
       toc_level: 3
-      output_path: MkDocs-Mermaid-to-Image.pdf
+      output_path: pdf/ドキュメンテーション戦略.pdf
