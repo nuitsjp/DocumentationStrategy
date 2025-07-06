@@ -34,6 +34,7 @@ plugins:
           htmlLabels: false
         class:
           htmlLabels: false
+  - svg-to-png:
   - to-pdf:
       cover_subtitle: 'ドキュメンテーション戦略'
       toc_title: 目次
