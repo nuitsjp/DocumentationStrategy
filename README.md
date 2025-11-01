@@ -1,4 +1,4 @@
-# DocumentationStrategy
+# 生成AI時代のドキュメント戦略 ~ 金融SIでの実践事例紹介 ~
 
 業務システムドキュメントのベストプラクティスとMermaid図表のサンプル集
 
