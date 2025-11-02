@@ -4,7 +4,7 @@
 
 ## 🌐 デモサイト
 
-[https://proud-smoke-05c31af00.2.azurestaticapps.net/](https://proud-smoke-05c31af00.2.azurestaticapps.net/)
+[https://mango-water-099741f10.3.azurestaticapps.net/](https://mango-water-099741f10.3.azurestaticapps.net/)
 
 ## 📋 概要
 
