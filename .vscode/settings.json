@@ -2,6 +2,8 @@
         "cSpell.words": [
                 "mkdocs",
                 "pymdown",
+                "pymdownx",
+                "superfences",
                 "tschoonj",
                 "Weasy",
                 "weasyprint",
