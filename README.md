@@ -12,7 +12,32 @@
 
 それを支えたドキュメント基盤を、同じ課題に直面している方々に共有いたします。
 
-## リポジトリー外部リソース
+
+## 応募要項
+
+### タイトル
+
+生成AI時代のドキュメント基盤 ~ 金融SIでの実践事例紹介 ~
+
+### セッション概要
+
+冒頭文書
+
+### セッション概要の補足
+
+とくになし？
+
+### 登壇形式
+
+- 入れ替わりで登壇するリレー形式
+
+### 参考スライドやドラフトのURL
+
+- [GitHubリポジトリ](https://github.com/nuitsjp/genai-documentation-infrastructure)
+- [プレゼン資料ドラフト]()
+- [デモサイト](https://mango-water-099741f10.3.azurestaticapps.net/)
+
+## 外部リソース
 
 - デモサイト：[https://mango-water-099741f10.3.azurestaticapps.net/](https://mango-water-099741f10.3.azurestaticapps.net/)
 - プレゼン資料：T.B.D
@@ -21,35 +46,30 @@
 
 - Markdown
 - **[MkDocs](https://www.mkdocs.org/)**: 静的サイトジェネレーター
-- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)**: レスポンシブテーマ
-- **[Mermaid](https://mermaid.js.org/)**: 図表描画ライブラリ
+- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)**
+- **[Mermaid](https://mermaid.js.org/)**: 図表作成ライブラリ
+- **[Draw.io（diagrams.net）](https://app.diagrams.net/)**: SVG描画ツール
+- **[Marp](https://marp.app/)**: Markdownプレゼンテーションツール
 
-## 利用ツール
+## 利用サービス・ツール
 
+- GitHub
+   - GitHub Actions
+- Azure Static Web Apps
+- Visual Studio Code
+   - Draw.io Integration
+   - テキスト校正くん
+- Python
+   - [uv](https://docs.astral.sh/uv/)
+   - [mkdocs-mermaid-to-image](https://pypi.org/project/mkdocs-mermaid-to-image/)
+   - [mkdocs-svg-to-png](https://pypi.org/project/mkdocs-svg-to-png/)
+   - [mkdocs-to-pdf](https://pypi.org/project/mkdocs-to-pdf/)
+- Excel
+   - [CopyToMarkdownAddIn](https://github.com/nuitsjp/CopyToMarkdownAddIn)
 
-## 📋 概要
+----------------------------------------------
 
-このプロジェクトは、システム開発におけるドキュメンテーション戦略を実践的にサポートするためのリソース集です。MkDocsとMermaidを活用して、以下のような技術ドキュメントのサンプルを提供しています：
-
-### 📊 提供している図表サンプル
-
-- **システム設計ドキュメント**
-  - システム概要（フローチャート）
-  - システムアーキテクチャ（コンポーネント図）
-  - データベース設計（ER図）
-  - クラス設計（クラス図）
-
-- **プロセス・フロードキュメント**
-  - ユーザージャーニー（シーケンス図）
-  - 状態管理（状態遷移図）
-
-- **プロジェクト管理**
-  - プロジェクト計画（ガントチャート、マイルストーン）
-
-## 🛠️ 技術スタック
-
-- **[uv](https://docs.astral.sh/uv/)**: Python環境・パッケージ管理
-- **Python 3.13**: 実行環境
+以下、T.B.D
 
 ## 🚀 セットアップ
 
@@ -122,13 +142,13 @@ uv run mkdocs build --config-file mkdocs.yml
 
 ### 新しい図表の追加
 
-```markdown
+````markdown
 ```mermaid
 graph TD
     A[開始] --> B[処理]
     B --> C[終了]
 ```
-```
+````
 
 ## 📁 プロジェクト構造
 
