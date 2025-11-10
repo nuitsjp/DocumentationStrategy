@@ -12,9 +12,20 @@
 
 それを支えたドキュメント基盤を、同じ課題に直面している方々に共有いたします。
 
-## 🌐 デモサイト
+## リポジトリー外部リソース
 
-[https://mango-water-099741f10.3.azurestaticapps.net/](https://mango-water-099741f10.3.azurestaticapps.net/)
+- デモサイト：[https://mango-water-099741f10.3.azurestaticapps.net/](https://mango-water-099741f10.3.azurestaticapps.net/)
+- プレゼン資料：T.B.D
+
+## 技術スタック
+
+- Markdown
+- **[MkDocs](https://www.mkdocs.org/)**: 静的サイトジェネレーター
+- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)**: レスポンシブテーマ
+- **[Mermaid](https://mermaid.js.org/)**: 図表描画ライブラリ
+
+## 利用ツール
+
 
 ## 📋 概要
 
@@ -37,9 +48,6 @@
 
 ## 🛠️ 技術スタック
 
-- **[MkDocs](https://www.mkdocs.org/)**: 静的サイトジェネレーター
-- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)**: レスポンシブテーマ
-- **[Mermaid](https://mermaid.js.org/)**: 図表描画ライブラリ
 - **[uv](https://docs.astral.sh/uv/)**: Python環境・パッケージ管理
 - **Python 3.13**: 実行環境
 
