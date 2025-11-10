@@ -60,11 +60,14 @@ z
 - Visual Studio Code
    - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
    - [テキスト校正くん](https://marketplace.visualstudio.com/items?itemName=ICS.japanese-proofreading)
-- Python
+- MkDocs
+   - Python
    - [uv](https://docs.astral.sh/uv/)
    - [mkdocs-mermaid-to-image](https://pypi.org/project/mkdocs-mermaid-to-image/)
    - [mkdocs-svg-to-png](https://pypi.org/project/mkdocs-svg-to-png/)
    - [mkdocs-to-pdf](https://pypi.org/project/mkdocs-to-pdf/)
+- Marp
+   - [Node.js](https://nodejs.org/)
 - Excel
    - [CopyToMarkdownAddIn](https://github.com/nuitsjp/CopyToMarkdownAddIn)
 
