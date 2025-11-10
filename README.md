@@ -26,7 +26,7 @@
 ### セッション概要の補足
 
 とくになし？
-
+z
 ### 登壇形式
 
 - 入れ替わりで登壇するリレー形式
@@ -56,9 +56,10 @@
 - GitHub
    - GitHub Actions
 - Azure Static Web Apps
+   - [swa-github-repo-auth](https://github.com/nuitsjp/swa-github-repo-auth)
 - Visual Studio Code
-   - Draw.io Integration
-   - テキスト校正くん
+   - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+   - [テキスト校正くん](https://marketplace.visualstudio.com/items?itemName=ICS.japanese-proofreading)
 - Python
    - [uv](https://docs.astral.sh/uv/)
    - [mkdocs-mermaid-to-image](https://pypi.org/project/mkdocs-mermaid-to-image/)
