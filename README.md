@@ -56,7 +56,7 @@
 ### 参考スライドやドラフトのURL
 
 - [GitHubリポジトリ](https://github.com/nuitsjp/genai-documentation-infrastructure)
-- [プレゼン資料ドラフト]()
+- [プレゼン資料](https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html)
 - [デモサイト](https://mango-water-099741f10.3.azurestaticapps.net/)
 
 ## 外部リソース
