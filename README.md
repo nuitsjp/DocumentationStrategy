@@ -67,8 +67,7 @@
 ## 技術スタック
 
 - Markdown
-- **[MkDocs](https://www.mkdocs.org/)**: 静的サイトジェネレーター
-- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)**
+- **[MkDocs(Material for MkDocs)](https://squidfunk.github.io/mkdocs-material/)**: 静的サイトジェネレーター
 - **[Mermaid](https://mermaid.js.org/)**: 図表作成ライブラリ
 - **[Draw.io（diagrams.net）](https://app.diagrams.net/)**: SVG描画ツール
 - **[Marp](https://marp.app/)**: Markdownプレゼンテーションツール
@@ -88,6 +87,7 @@
    - [mkdocs-mermaid-to-image](https://pypi.org/project/mkdocs-mermaid-to-image/)
    - [mkdocs-svg-to-png](https://pypi.org/project/mkdocs-svg-to-png/)
    - [mkdocs-to-pdf](https://pypi.org/project/mkdocs-to-pdf/)
+   - [mkdocs-table-reader-plugin](https://pypi.org/project/mkdocs-table-reader-plugin/)
 - Marp
    - [Node.js](https://nodejs.org/)
 - Excel
