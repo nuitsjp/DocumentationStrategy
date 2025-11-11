@@ -74,6 +74,7 @@
 
 ## 利用サービス・ツール
 
+- Coding Agent（Codex CLI, Claude Code, GitHub Copilotなど）
 - GitHub
    - GitHub Actions
 - Azure Static Web Apps
