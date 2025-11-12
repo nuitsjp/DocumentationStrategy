@@ -5,4 +5,5 @@ themeSet: theme
 
 # 出力形式
 html: true
+pdf: true
 
