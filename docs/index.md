@@ -14,9 +14,9 @@ AWSからはKiro、GitHubからはSpec Kitも登場し、仕様駆動開発も�
 
 ## 外部リソース
 
-- GitHubリポジトリ：[https://github.com/nuitsjp/genai-documentation-infrastructure](https://github.com/nuitsjp/genai-documentation-infrastructure)
-- プロポーザル:[./プロポーザル.md](./プロポーザル.md)
-- プレゼン資料：[https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html](https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html)
+- [GitHubリポジトリ](https://github.com/nuitsjp/genai-documentation-infrastructure)
+- [プロポーザル](./プロポーザル.md)
+- [プレゼン資料](https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html)
 
 ## 技術スタック
 
@@ -30,23 +30,23 @@ AWSからはKiro、GitHubからはSpec Kitも登場し、仕様駆動開発も�
 
 - Coding Agent（Codex CLI, Claude Code, GitHub Copilotなど）
 - GitHub
-   - GitHub Actions
+    - GitHub Actions
 - Azure Static Web Apps
-   - [swa-github-repo-auth](https://github.com/nuitsjp/swa-github-repo-auth)
+    - [swa-github-repo-auth](https://github.com/nuitsjp/swa-github-repo-auth)
 - Visual Studio Code
-   - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
-   - [テキスト校正くん](https://marketplace.visualstudio.com/items?itemName=ICS.japanese-proofreading)
+    - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+    - [テキスト校正くん](https://marketplace.visualstudio.com/items?itemName=ICS.japanese-proofreading)
 - MkDocs
-   - Python
-   - [uv](https://docs.astral.sh/uv/)
-   - [mkdocs-mermaid-to-image](https://pypi.org/project/mkdocs-mermaid-to-image/)
-   - [mkdocs-svg-to-png](https://pypi.org/project/mkdocs-svg-to-png/)
-   - [mkdocs-to-pdf](https://pypi.org/project/mkdocs-to-pdf/)
-   - [mkdocs-table-reader-plugin](https://pypi.org/project/mkdocs-table-reader-plugin/)
+    - Python
+    - [uv](https://docs.astral.sh/uv/)
+    - [mkdocs-mermaid-to-image](https://pypi.org/project/mkdocs-mermaid-to-image/)
+    - [mkdocs-svg-to-png](https://pypi.org/project/mkdocs-svg-to-png/)
+    - [mkdocs-to-pdf](https://pypi.org/project/mkdocs-to-pdf/)
+    - [mkdocs-table-reader-plugin](https://pypi.org/project/mkdocs-table-reader-plugin/)
 - Marp
-   - [Node.js](https://nodejs.org/)
+    - [Node.js](https://nodejs.org/)
 - Excel
-   - [CopyToMarkdownAddIn](https://github.com/nuitsjp/CopyToMarkdownAddIn)
+    - [CopyToMarkdownAddIn](https://github.com/nuitsjp/CopyToMarkdownAddIn)
 
 ----------------------------------------------
 
@@ -191,16 +191,16 @@ MIT License - 詳細は [LICENSE](LICENSE) ファイルを参照してくださ�
 ### よくある問題
 
 1. **PDF生成エラー**
-   - GTK+ Runtimeがインストールされているか確認
-   - WeasyPrintの依存関係を確認
+    - GTK+ Runtimeがインストールされているか確認
+    - WeasyPrintの依存関係を確認
 
 2. **Mermaid図表が表示されない**
-   - ブラウザのキャッシュをクリア
-   - JavaScriptが有効になっているか確認
+    - ブラウザのキャッシュをクリア
+    - JavaScriptが有効になっているか確認
 
 3. **セットアップスクリプトが動作しない**
-   - PowerShellを管理者権限で実行
-   - ExecutionPolicyを確認
+    - PowerShellを管理者権限で実行
+    - ExecutionPolicyを確認
 
 ### サポート
 

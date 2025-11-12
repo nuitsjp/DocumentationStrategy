@@ -14,9 +14,9 @@ AWSからはKiro、GitHubからはSpec Kitも登場し、仕様駆動開発も�
 
 ## 外部リソース
 
-- デモサイト：[https://mango-water-099741f10.3.azurestaticapps.net/](https://mango-water-099741f10.3.azurestaticapps.net/)
-- プロポーザル:[https://mango-water-099741f10.3.azurestaticapps.net/%E5%BF%9C%E5%8B%9F%E5%86%85%E5%AE%B9/](https://mango-water-099741f10.3.azurestaticapps.net/%E5%BF%9C%E5%8B%9F%E5%86%85%E5%AE%B9/)
-- プレゼン資料：[https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html](https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html)
+- [GitHubリポジトリ](https://github.com/nuitsjp/genai-documentation-infrastructure)
+- [プロポーザル](./docs/プロポーザル.md)
+- [プレゼン資料](https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html)
 
 ## 技術スタック
 
