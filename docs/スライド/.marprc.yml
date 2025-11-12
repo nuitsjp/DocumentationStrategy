@@ -1,0 +1,14 @@
+# Marp CLI設定ファイル
+# このディレクトリ配下のMarkdownファイルを一括変換する際の設定
+
+# カスタムテーマを指定
+themeSet: ./theme/marp.css
+
+# 出力形式
+html: true
+
+# 入力ファイルのパターン（サブディレクトリも含む）
+inputDir: .
+
+# 出力先ディレクトリ
+output: .

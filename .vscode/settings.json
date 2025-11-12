@@ -10,5 +10,8 @@
                 "Weasy",
                 "weasyprint",
                 "winget"
+        ],
+        "markdown.marp.themes": [
+                "./docs/スライド/theme/marp.css"
         ]
 }
