@@ -1,5 +1,5 @@
-site_name: ドキュメンテーション戦略
-site_description: 業務システムドキュメントのベストプラクティスとMermaid図表のサンプル集
+site_name: Documentation Infrastructure
+site_description: Best practices for business system documentation and a collection of Mermaid diagram samples
 site_author: Documentation Team
 copyright: Copyright &copy; 2024 @nuits.jp
 

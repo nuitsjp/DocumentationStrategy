@@ -1,19 +1,22 @@
 # 生成AI時代のドキュメント基盤 ~ 金融SIでの実践事例紹介 ~
 
-生成AIの活用が進み、AWSからKiro、GitHubからSpec Kitが登場し、仕様駆動開発が注目されています。
+近年、生成AIの活用が進みドキュメントの重要性が再認識されています。
 
-これらはMarkdownをgitで管理しますが、実運用には課題が多く存在します。
+AWSからはKiro、GitHubからはSpec Kitも登場し、仕様駆動開発も注目を集めています。
 
-図表は何で描くか？プレゼン資料は？検索含め、どう閲覧しやすく共有するか？納品が必要な場合に対応可能か？
+これらはMarkdownをgitで管理しますが、プロダクトレベルでは多くの課題が存在します。
 
-私たちは金融SIプロジェクトで、7年間800ページを超えるドキュメントで仕様駆動開発をしてきました。
+図表は何で描くか？扱いやすく共有するには？PDF化は可能か？プレゼン資料は？
 
-それを支えたドキュメント基盤を、同じ課題に直面している方々に共有いたします。
+私たちは7年前、金融SIプロジェクトで800ページを超えるOffice文書をMarkdownに移行し、開発してきました。
+
+ここで得た、多くのノウハウを共有いたします。
 
 ## 外部リソース
 
 - デモサイト：[https://mango-water-099741f10.3.azurestaticapps.net/](https://mango-water-099741f10.3.azurestaticapps.net/)
-- プレゼン資料：T.B.D
+- プロポーザル:[https://mango-water-099741f10.3.azurestaticapps.net/%E5%BF%9C%E5%8B%9F%E5%86%85%E5%AE%B9/](https://mango-water-099741f10.3.azurestaticapps.net/%E5%BF%9C%E5%8B%9F%E5%86%85%E5%AE%B9/)
+- プレゼン資料：[https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html](https://mango-water-099741f10.3.azurestaticapps.net/Slides/genai-documentation-infrastructure.html)
 
 ## 技術スタック
 
