@@ -58,7 +58,7 @@ jobs:
       - name: Convert Marp slides to HTML
         run: |
           cd docs/スライド
-          marp --config-file .marprc.yml *.md
+          marp -c .marprc.yml -I . -o .
 
       - name: Build MkDocs site
         run: |
